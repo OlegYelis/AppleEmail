@@ -1,0 +1,324 @@
+<mjml>
+  <mj-head>
+    <mj-preview>Apple watch</mj-preview>
+    <mj-title>Apple watch</mj-title>
+
+    <mj-style>
+      .hero__link { font-family: 'Inter'; font-style: normal; font-weight: 500;
+      font-size: 15px; line-height: 18px; text-decoration: none; color: #1890ff;
+      display: flex; align-items: center; margin: 0 0 128px 0; } .goods {
+      display: flex; flex-wrap: wrap; align-items: center; justify-content:
+      space-between; } .goods__card { margin: 26px 0; } .goods__header {
+      display: flex; align-items: center; justify-content: space-between; }
+      .goods__title { font-family: 'Inter'; font-weight: 700; font-size: 24px;
+      line-height: 29px; color: #0C1014; } .goods__link { font-family: 'Inter';
+      font-style: normal; font-weight: 500; font-size: 15px; line-height: 18px;
+      text-decoration: none; color: #1890ff; display: flex; align-items: center;
+      } .card__img { display: block; margin-bottom: 32px;} .card__name {
+      font-family: 'Inter'; font-style: normal; font-weight: 700; font-size:
+      16px; line-height: 19px; color: #0C1014; margin: 0 0 4px 0;} .card__price
+      { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size:
+      12px; line-height: 20px; margin: 0 0 12px 0; color: #515759; } .card__link
+      {font-family: 'Inter'; font-style: normal; font-weight: 500; font-size:
+      10px; line-height: 20px; color: #FFFFFF; background: #1890FF;
+      border-radius: 4px; padding: 5px 18px; text-decoration: none; }
+      .card__link:hover, .card__link:focus { color: #FFFFFF; } .footer {
+      display: flex; align-items: start; justify-content: space-between;
+      flex-wrap: wrap; } .footer__left { margin-bottom: 20px; } .footer__title {
+      font-family: 'Inter'; font-weight: 600; font-size: 18px; line-height:
+      22px; color: #0C1014; margin: 0 0 8px 0;} .footer__txt { font-family:
+      'Inter'; font-style: normal; font-weight: 400; font-size: 11px;
+      line-height: 20px; color: #515759; width: 158px; margin: 0 0 21px 0;}
+      .footer__list { list-style: none; display: flex; align-items: center;
+      justify-content: flex-start; padding: 0; } .footer__item:not(:last-child)
+      { margin-right: 28px; } .footer__right { display: flex; flex-direction:
+      column; align-items: start; margin-bottom: 20px;} .footer__number {
+      font-family: 'Inter'; font-style: normal; font-weight: 600; font-size:
+      11px; line-height: 20px; color: #515759; text-decoration: none; margin: 0
+      0 8px 0;} .footer__number:hover, .footer__number:focus { color: #515759; }
+      .footer__email { font-family: 'Inter'; font-style: normal; font-weight:
+      400; font-size: 11px; line-height: 20px; color: #1890FF; text-decoration:
+      none; }
+    </mj-style>
+    <mj-font
+      name="Inter"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    />
+  </mj-head>
+  <mj-body width="640px">
+    <mj-wrapper
+      background-color="#F4F4F4"
+      border-radius="40px"
+      padding="30px 40px"
+    >
+      <mj-section padding="0px" padding-bottom="16px">
+        <mj-column
+          width="560px"
+          background-color="#FFFFFF"
+          border-radius="8px 8px 0px 0px"
+        >
+          <mj-image
+            src="./apple-logo.png"
+            alt="apple logo"
+            width="150px"
+            align="center"
+            padding="30px 0"
+          />
+        </mj-column>
+        <mj-column
+          width="560px"
+          background-color="#444444"
+          border-radius="0px 0px 8px 8px"
+          padding="8px 0"
+        >
+          <mj-navbar>
+            <mj-navbar-link
+              href="/try-it-live"
+              color="#ffffff"
+              padding="8px 12px"
+              font-family="Inter, Arial"
+              font-size="13px"
+              line-height="16px"
+            >
+              Design
+            </mj-navbar-link>
+            <mj-navbar-link
+              href="/try-it-live"
+              color="#ffffff"
+              padding="8px 12px"
+              font-family="Inter, Arial"
+              font-size="13px"
+              line-height="16px"
+            >
+              Health
+            </mj-navbar-link>
+            <mj-navbar-link
+              href="/try-it-live"
+              color="#ffffff"
+              padding="8px 12px"
+              font-family="Inter, Arial"
+              font-size="13px"
+              line-height="16px"
+            >
+              Workout
+            </mj-navbar-link>
+            <mj-navbar-link
+              href="/try-it-live"
+              color="#ffffff"
+              padding="8px 12px"
+              font-family="Inter, Arial"
+              font-size="13px"
+              line-height="16px"
+            >
+              Activity
+            </mj-navbar-link>
+            <mj-navbar-link
+              href="/try-it-live"
+              color="#ffffff"
+              padding="8px 12px"
+              font-family="Inter, Arial"
+              font-size="13px"
+              line-height="16px"
+            >
+              Connect
+            </mj-navbar-link>
+          </mj-navbar>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="16px 0">
+        <mj-column
+          width="334px"
+          background-color="#FFFFFF"
+          border-radius="8px 0px 0px 8px"
+          padding="48px 15px 48px 72px"
+        >
+          <mj-text
+            font-family="Inter"
+            font-weight="700"
+            font-size="36px"
+            line-height="44px"
+            color="#0c1014"
+            padding="0px 0px 16px 0px"
+          >
+            Change starts within.
+          </mj-text>
+          <mj-text
+            font-family="Inter"
+            font-weight="500"
+            font-size="14px"
+            line-height="20px"
+            color="#515759"
+            padding="0px 0px 24px 0px"
+          >
+            Apple Watch Series 4. Fundamentally redesigned and re‑engineered to
+            help you be even more active, healthy, and connected.
+          </mj-text>
+
+          <mj-text padding="0px">
+            <a href="" class="hero__link">
+              Visit website
+              <img src="./arrow-right.png" alt="arrow" width="16px" />
+            </a>
+          </mj-text>
+
+          <mj-button
+            href="#"
+            align="left"
+            padding="0"
+            width="128px"
+            background-color="#1890FF"
+            border-radius="8px"
+            font-family="Inter"
+            font-weight="500"
+            font-size="18px"
+            line-height="22px"
+            color="#FFFFFF"
+          >
+            Buy
+          </mj-button>
+        </mj-column>
+        <mj-column
+          width="226px"
+          background-color="#FFFFFF"
+          border-radius="0px 8px 8px 0px"
+        >
+          <mj-image
+            src="./apple-watch.png"
+            alt="apple watch"
+            width="176px"
+            height="494px"
+            padding="0px 50px 0px 0px"
+          />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="16px 0">
+        <mj-column
+          width="560px"
+          background-color="#FFFFFF"
+          border-radius="8px"
+          padding="50px 70px 25px 70px"
+        >
+          <mj-text padding="0px">
+            <div class="goods__header">
+              <h2 class="goods__title">Check also</h2>
+              <a href="" class="goods__link">
+                See all
+                <img src="./arrow-right.png" alt="arrow" width="16px" />
+              </a>
+            </div>
+          </mj-text>
+
+          <mj-text padding="0px">
+            <div class="goods">
+              <div class="goods__card">
+                <img
+                  src="https://drive.google.com/file/d/1rLLwkdsKWxOemNjrjKWvqZH4T6nAmJ67/view?usp=sharing"
+                  alt="airpods"
+                  class="card__img"
+                  width="168px"
+                />
+                <h3 class="card__name">AirPods</h3>
+                <p class="card__price">$199.00</p>
+                <a href="#" class="card__link">Buy</a>
+              </div>
+              <div class="goods__card">
+                <img
+                  src="./iphone.png"
+                  alt="iphone"
+                  class="card__img"
+                  width="168px"
+                />
+                <h3 class="card__name">Iphone XR</h3>
+                <p class="card__price">$799.00</p>
+                <a href="#" class="card__link">Buy</a>
+              </div>
+              <div class="goods__card">
+                <img src="./TV.png" alt="TV" class="card__img" width="168px" />
+                <h3 class="card__name">Apple TV 4K</h3>
+                <p class="card__price">$179.00</p>
+                <a href="#" class="card__link">Buy</a>
+              </div>
+              <div class="goods__card">
+                <img
+                  src="./card.png"
+                  alt="card"
+                  class="card__img"
+                  width="168px"
+                />
+                <h3 class="card__name">Apple Card</h3>
+                <p class="card__price">Free*</p>
+                <a href="#" class="card__link">Buy</a>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0px" padding-top="16px">
+        <mj-column
+          width="560px"
+          background-color="#FFFFFF"
+          border-radius="8px"
+          padding="45px 70px 20px"
+        >
+          <mj-text padding="0px">
+            <div class="footer">
+              <div class="footer__left">
+                <h3 class="footer__title">Follow Us.</h3>
+                <p class="footer__txt">
+                  We are always looking for new projects and collaborations.
+                  Feel free to contact us.
+                </p>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a class="footer__link" href="">
+                      <img
+                        class="footer__img"
+                        src="./facebook.png"
+                        alt="facebook"
+                        width="20px"
+                      />
+                    </a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="">
+                      <img
+                        class="footer__img"
+                        src="./twitter.png"
+                        alt="twitter"
+                        width="20px"
+                      />
+                    </a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link" href="">
+                      <img
+                        class="footer__img"
+                        src="./instagram.png"
+                        alt="instagram"
+                        width="20px"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__right">
+                <h3 class="footer__title">Contact Us.</h3>
+                <p class="footer__txt">
+                  One Apple Park Way Cupertino, CA 95014
+                </p>
+                <a class="footer__number" href="tel:4089961010"
+                  >(408) 996-1010</a
+                >
+                <a class="footer__email" href="mailto:support@apple.com"
+                  >support@apple.com</a
+                >
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
